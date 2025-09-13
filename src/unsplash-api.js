@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const ACCESS_KEY =
   import.meta.env.VITE_UNSPLASH_ACCESS_KEY ||
-  'DxYBlkA5Bj1CqFrblq34DtC9rK0Zv4V4CWUDv8eWfOE';
+  'hYtq7mKLOSbLzrmA7XiLxp6ZLDp2_4YrFr0A0DeSMDQ';
 axios.defaults.baseURL = 'https://api.unsplash.com/';
 
 export const fetchPhotos = async (searchQuery, page = 1) => {

@@ -19,17 +19,6 @@ const ImageModal = ({ image, onClose }) => {
           alt={image.alt_description || 'Beautiful image'}
           className={styles.modalImage}
         />
-        <div className={styles.imageInfo}>
-          <h3>Photographer: {image.user.name}</h3>
-          <p>❤️ {image.likes} likes</p>
-          {image.description && <p>{image.description}</p>}
-          <p>
-            📐 {image.width} × {image.height}px
-          </p>
-        </div>
-        <button className={styles.closeBtn} onClick={onClose}>
-          ✕ Close
-        </button>
       </div>
     </Modal>
   );
