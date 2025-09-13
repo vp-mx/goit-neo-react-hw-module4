@@ -1,0 +1,53 @@
+/* Заголовок (контейнер хедера) */
+.header {
+  background: #87ceeb;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.searchForm {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 4px;
+  padding: 4px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.searchField {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.searchField:focus {
+  box-shadow: 0px 0px 4px rgba(135, 206, 235, 0.6);
+}
+
+.submitBtn {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background: #4682b4;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.submitBtn:hover {
+  background: #5f9ea0;
+}
