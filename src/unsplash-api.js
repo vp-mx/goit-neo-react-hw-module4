@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// API ключ для Unsplash - используем только рабочий ключ
 const ACCESS_KEY = 'U8oXhSJqcMtWMY-7lfmoUfq3_MKQUV_I8vRAoOvzbmg';
 axios.defaults.baseURL = 'https://api.unsplash.com/';
 
